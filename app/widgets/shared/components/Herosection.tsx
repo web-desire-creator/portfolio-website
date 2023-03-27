@@ -18,16 +18,13 @@ const Herosection = () => {
       <Button text='Projects' border={true}/>
       </div>
     </div>
-
     <div className='mt-8 sm:-mt-0'>
     <Image src= {CIRCLE} alt="background"/>
     </div>
-
     </section>}
     />
     <div className='bg-[#181824] py-8 '></div>
     </div>
   )
 }
-
 export default Herosection
