@@ -7,12 +7,12 @@ const Header = () => {
     <div className='basis-8/12 text-[#7562E0]'>
     M. Bilal Nadeem
     </div>
-    <ul className='flex gap-x-4'>
-      <li className='basis-1/4 hover:text-[#7562E0]'>Home</li>
-      <li className='basis-2/4 hover:text-[#7562E0]'>About us</li>
-      <li className='basis-1/4 hover:text-[#7562E0]'>Projects</li>
-      <li className='basis-1/4 hover:text-[#7562E0]'>Reviews</li>
-    </ul>
+    <div className='flex gap-x-4'>
+      <button className='basis-1/4 hover:text-[#7562E0]'>Home</button>
+      <button className='basis-2/4 hover:text-[#7562E0]'>About us</button>
+      <button className='basis-1/4 hover:text-[#7562E0]'>Projects</button>
+      <button className='basis-1/4 hover:text-[#7562E0]'>Reviews</button>
+    </div>
   </div>}/>
   </div>
   )

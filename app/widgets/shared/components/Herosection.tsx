@@ -3,6 +3,8 @@ import Image from 'next/image'
 import CIRCLE from '../asserts/CIRCLE.png'
 import Wrapper from '../asserts/Wrapper'
 import Button from '../asserts/Button'
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Herosection = () => {
   return (
@@ -14,8 +16,17 @@ const Herosection = () => {
       <h1 className='text-3xl sm:text-5xl font-semibold'>M. Bilal Nadeem</h1>
       <div className='text-lg font-medium'>I am professional Full-stack developer with additional skills of content writing and graphics design. I create seamless web experiences for end-users.</div>
       <div className='flex justify-center sm:justify-start sm:mt-10 gap-x-6 pt-4'>
-      <Button text='About me' border={false}/>
-      <Button text='Projects' border={true}/>
+      <button className='flex items-center gap-x-2 text-white py-2 px-4 bg-[#7562E0] rounded-lg'>
+        <div>
+        About me
+        </div>
+        <div>
+        <FontAwesomeIcon className="w-3 cursor pointer duration-300 hover:opacity-40 cursor-pointer" icon={faUser} />
+        </div>
+
+      </button>
+
+      <Button text='Projects' link='#' border={true}/>
       </div>
     </div>
     <div className='mt-8 sm:-mt-0'>

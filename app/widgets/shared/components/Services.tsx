@@ -18,13 +18,13 @@ const Services = () => {
         <div className='text-2xl text-[#7562E0] font-semibold py-4 pt-8'>The Services I offer:</div>
         <div className='flex flex-col sm:flex-row gap-y-10 sm:gap-x-10'>
         <Servicecard title={'UI/UX DESIGN'} desc={'I will design beautiful web interfaces with figma and adobe XD'} color={true}/>
-        <Servicecard title={'UI/UX DESIGN'} desc={'I will design beautiful web interfaces with figma and adobe XD'} color={false}/>
-        <Servicecard title={'UI/UX DESIGN'} desc={'I will design beautiful web interfaces with figma and adobe XD'} color={true}/>
+        <Servicecard title={'Web App Development'} desc={'I will build a Full Stack React app using NEXTjs Framework'} color={false}/>
+        <Servicecard title={'Graphics Design'} desc={'I will create eye catchy logo and website graphics using different minimalistic approach'} color={true}/>
         </div>
         <div className='flex flex-col sm:flex-row gap-y-10 sm:gap-x-10 pt-10'>
-        <Servicecard title={'UI/UX DESIGN'} desc={'I will design beautiful web interfaces with figma and adobe XD'} color={false}/>
-        <Servicecard title={'UI/UX DESIGN'} desc={'I will design beautiful web interfaces with figma and adobe XD'} color={true}/>
-        <Servicecard title={'UI/UX DESIGN'} desc={'I will design beautiful web interfaces with figma and adobe XD'} color={false}/>
+        <Servicecard title={'Data Science'} desc={'I can do data science projects using Python'} color={false}/>
+        <Servicecard title={'API Development'} desc={'I can create API using OpenAI specification and swagger tool'} color={true}/>
+        <Servicecard title={'Content Writing'} desc={'I can write technical blogs related to modern trends in Software Engineering'} color={false}/>
         </div>
         <div className='flex base-4/12 '>
         
