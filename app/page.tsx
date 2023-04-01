@@ -9,7 +9,9 @@ import Services from './widgets/shared/components/Services'
 const page = () => (  
   <>
     <Herosection/>
+    <div id="about">
     <About/>
+    </div>
     <Services/>
     <Projects/>
     <Reviews/>
