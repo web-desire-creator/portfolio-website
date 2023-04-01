@@ -7,7 +7,7 @@ const Header = () => {
   const router = useRouter();
   return (
     <div className='sticky top-0 bg-[#181824]'>
-    <Wrapper childern={<div className='flex py-4 text-white '>
+    <Wrapper childern={<div className='flex py-4 gap-x-4 items-center text-white '>
     <div className='text-lg basis-8/12 font-bold text-[#7562E0]'>
     <a href="#">
     <button>M. Bilal Nadeem</button>
