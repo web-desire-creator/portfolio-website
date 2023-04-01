@@ -3,7 +3,7 @@ import Wrapper from '../asserts/Wrapper'
 
 const About = () => {
   return (
-    <section className='bg-[#1A1A29] text-white'>
+    <section id="about" className='bg-[#1A1A29] text-white'>
         <Wrapper childern={<>
         <h2 className='text-2xl text-[#7562E0] font-semibold pt-10'>
       About Me:

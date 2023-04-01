@@ -3,7 +3,7 @@ import Client from '../asserts/Client'
 import Wrapper from '../asserts/Wrapper'
 
 const Reviews = () => (
-    <div className='bg-[#1a1a29]'>
+    <div id="review" className='bg-[#1a1a29]'>
         <Wrapper childern={
         <>
             <div className='text-3xl py-6 font-semibold text-[#7562E0]'>Reviews:</div>
