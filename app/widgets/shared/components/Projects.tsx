@@ -15,25 +15,25 @@ const projectsArr = [
     {
     title:"Metaversus",
     desc:"A futuristic Metaverse Website Landing Page built with Nextjs13, Framer Motion and Tailwind CSS",
-    link:"",
+    link:"https://metaversus-rose.vercel.app/",
     image:Metaversus
     },
     {
     title:"Weather App",
     desc:"Weather App built with React and Tailwind CSS",
-    link:"",
+    link:"https://weatherapp-react-tailwind-bilal.vercel.app/",
     image:Weather
     },
     {
     title:"Notes App",
     desc:"CRUD Notes App built with Nextjs13, Tailwind CSS, Vercel PostgreSQL and Drizzle ORM",
-    link:"",
+    link:"https://notes-app-postgres.vercel.app/",
     image:Notes
     },
     {
     title:"Text Modifier",
     desc:"Text Manupilating App built with React and Bootstrap",
-    link:"",
+    link:"https://text-modifier-react.vercel.app/",
     image:Text
     },
     {

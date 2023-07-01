@@ -62,7 +62,7 @@ export default function Contact() {
     return (
         <section>
             <div id='Contact' className='bg-[#1a1a29] text-white py-10'>
-                <div className='ml-16'>
+                <div>
                     <div className='w-2/3 mx-auto text-3xl font-semibold text-[#7562E0]'>
                     Contact Me
                     </div>
