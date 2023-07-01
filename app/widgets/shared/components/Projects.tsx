@@ -8,10 +8,17 @@ import Text from '../asserts/text.png'
 import Notes from '../asserts/notes.png'
 import Weather from '../asserts/weather.png'
 import Metaversus from '../asserts/meta.png'
+import Ecommerce from '../asserts/ecom.png'
 import Wrapper from '../asserts/Wrapper'
 
 
 const projectsArr = [
+    {
+    title:"Ecommerce Website",
+    desc:"A full Stack Ecommerce website built using Nextjs13, Tailwind CSS, Vercel PostgreSQL and Drizzle ORM",
+    link:"https://ecommerce-website-ten-eta.vercel.app/",
+    image:Ecommerce
+    },
     {
     title:"Metaversus",
     desc:"A futuristic Metaverse Website Landing Page built with Nextjs13, Framer Motion and Tailwind CSS",
