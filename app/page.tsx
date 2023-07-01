@@ -1,5 +1,6 @@
 
 import About from './widgets/shared/components/About'
+import Contact from './widgets/shared/components/Contact'
 
 import Herosection from './widgets/shared/components/Herosection'
 import Projects from './widgets/shared/components/Projects'
@@ -15,6 +16,7 @@ const page = () => (
     <Services/>
     <Projects/>
     <Reviews/>
+    <Contact />
   </>
 )
 
