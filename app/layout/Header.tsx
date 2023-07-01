@@ -26,6 +26,9 @@ const Header = () => {
       <a href="#reviews">
       <button className='basis-1/4 hover:text-[#7562E0]'>Reviews</button>
       </a>
+      <a href="#Contact">
+      <button className='basis-1/4 hover:text-[#7562E0]'>Contact</button>
+      </a>
     </div>
   </div>}/>
   </div>
